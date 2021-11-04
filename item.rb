@@ -10,7 +10,7 @@ class Item
 
   def label=(label)
     @label = label
-    label.Item = self
+    label.item.push(self) unless label.item.include?(self)
   end
 
   def can_be_archived?
