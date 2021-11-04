@@ -1,18 +1,18 @@
 require 'date'
 
 class Item
-  def initialize(id, publish_date, achived)
+  def initialize(id, publish_date, archived)
     @id = id
     @label = nil
     @publish_date = publish_date
-    @achived = achived
+    @archived = archived
   end
 
   def label=(label)
     @label = label
   end
 
-  def can_be_achived?
+  def can_be_archived?
     current_date = Date.today
     publish_date = Date.parse(@publish_date)
     years = (current_date - publish_date).to_i / 365.25
@@ -21,7 +21,7 @@ class Item
     false
   end
 
-  def move_to_achived
-    @achived = true if can_be_achived?
+  def move_to_archived
+    @archived = true if can_be_archived?
   end
 end
