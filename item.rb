@@ -10,6 +10,7 @@ class Item
 
   def label=(label)
     @label = label
+    label.Item = self
   end
 
   def can_be_archived?
