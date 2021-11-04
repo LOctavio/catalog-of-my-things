@@ -1,6 +1,8 @@
 require 'date'
 
 class Item
+  attr_reader :id, :label, :publish_date, :archived
+
   def initialize(id, publish_date, archived)
     @id = id
     @label = nil
@@ -10,7 +12,7 @@ class Item
 
   def label=(label)
     @label = label
-    label.item.push(self) unless label.item.include?(self)
+    label.items.push(self) unless label.items.include?(self)
   end
 
   def can_be_archived?
