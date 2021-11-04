@@ -9,4 +9,8 @@ class Item
   def label=(label)
     @label = label
   end
+
+  def can_be_achived?; end
+
+  def move_to_achived; end
 end
