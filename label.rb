@@ -12,4 +12,13 @@ class Label
     @items.push(item)
     item.label = self
   end
+
+  def to_json(_options = {})
+    {
+      'className' => self.class.name,
+      'id' => @id,
+      'title' => @title,
+      'color' => @color
+    }
+  end
 end
