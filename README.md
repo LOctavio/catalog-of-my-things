@@ -29,15 +29,21 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
+- Open the terminal
+- Go to the route where you want to save the project
 - Run 'git clone https://github.com/LOctavio/catalog-of-my-things.git' to get a local copy
 
 ### Usage
 
+- Open the terminal
+- Open the root directory of the project
 - Run 'ruby main.rb' to run the project 
 
 ### Run tests
 
-- Run 'rspec'
+- Open the terminal
+- Open the root directory of the project
+- Run 'rspec' to run the tests
 
 
 ## Authors
