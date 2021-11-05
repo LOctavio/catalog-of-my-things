@@ -1,62 +1,75 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Catalog of my things
+# Project Name
 
-> This app helps users to keep a record of different types of things they own
+> One paragraph statement about the project.
 
-This is a simple console app that allows user to manage collections of books they own
+![screenshot](./app_screenshot.png)
 
-This app can do the following:
-
-- Show a list of books
-- Show a list of labels
-- Store books
-
-All the books and labels are stored in JSON files
+Additional description about the project and its features.
 
 ## Built With
 
-- Ruby
+- Major languages
+- Frameworks
+- Technologies used
+
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
 
 
 ## Getting Started
+
+**This is an example of how you may give instructions on setting up your project locally.**
+**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Ruby >= 3.0.1
-
 ### Setup
 
-- Run 'git clone https://github.com/LOctavio/catalog-of-my-things.git' to get a local copy
+### Install
 
 ### Usage
 
-- Run 'ruby main.rb' to run the project 
-
 ### Run tests
 
-- Run 'rspec'
+### Deployment
+
 
 
 ## Authors
 
-👤 **Luis Octavio Ramirez Cruz**
+👤 **Author1**
 
-- GitHub: [LOctavio](https://github.com/LOctavio)
-- Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
-- LinkedIn: [Luis Octavio Ramirez Cruz](https://www.linkedin.com/in/luis-octavio-ramirez-cruz/)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/LOctavio/catalog-of-my-things/issues).
+Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
