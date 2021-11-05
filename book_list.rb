@@ -21,8 +21,9 @@ class BookList
 
   def add
     file = File.open('books.json', 'w')
-    book = Book.new(user_input('ID:'), user_input('publish date:'), user_input('archived:'), user_input('publisher'),
+    book = Book.new(user_input('ID:'), user_input('publish date:'), user_input('publisher'),
                     user_input('cover state'))
+    book.archived = book.can_be_archived?
     book = book.to_json
     @books.push(book)
     file.write(JSON[@books])
