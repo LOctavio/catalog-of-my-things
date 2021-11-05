@@ -3,11 +3,11 @@ require 'date'
 class Item
   attr_reader :id, :label, :publish_date, :archived
 
-  def initialize(id, publish_date, archived)
+  def initialize(id, publish_date)
     @id = id
     @label = nil
     @publish_date = publish_date
-    @archived = archived
+    @archived = false
   end
 
   def label=(label)
