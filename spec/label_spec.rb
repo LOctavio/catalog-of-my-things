@@ -5,7 +5,7 @@ describe Label do
   context 'Testing add_item method' do
     before(:context) do
       @label = Label.new(1, 'New', 'White')
-      @item = Item.new(1, '2000-12-12', false)
+      @item = Item.new(1, '2000-12-12')
     end
 
     it 'Adds item to the colecction of items' do

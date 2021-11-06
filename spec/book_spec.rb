@@ -10,9 +10,9 @@ describe Book do
       publisher = 'paanini'
       cover_state = 'bad'
       cover_state2 = 'good'
-      @book = Book.new(id, publish_date, archived, publisher, cover_state2)
-      @book2 = Book.new(id, publish_date2, archived, publisher, cover_state)
-      @book3 = Book.new(id, publish_date2, archived, publisher, cover_state2)
+      @book = Book.new(id, publish_date, publisher, cover_state2)
+      @book2 = Book.new(id, publish_date2, publisher, cover_state)
+      @book3 = Book.new(id, publish_date2, publisher, cover_state2)
     end
 
     it "Return true if parent's method is equal to true" do
