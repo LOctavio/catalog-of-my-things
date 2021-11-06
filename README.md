@@ -1,75 +1,68 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Catalog of my things
 
-> One paragraph statement about the project.
+> This app helps users to keep a record of different types of things they own
 
-![screenshot](./app_screenshot.png)
+This is a simple console app that allows user to manage collections of books they own
 
-Additional description about the project and its features.
+This app can do the following:
+
+- Show a list of books
+- Show a list of labels
+- Store books
+
+All the books and labels are stored in JSON files
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- Ruby >= 3.0.1
+
 ### Setup
 
-### Install
+- Open the terminal
+- Go to the route where you want to save the project
+- Run 'git clone https://github.com/LOctavio/catalog-of-my-things.git' to get a local copy
 
 ### Usage
 
+- Open the terminal
+- Open the root directory of the project
+- Run 'ruby main.rb' to run the project 
+
 ### Run tests
 
-### Deployment
-
+- Open the terminal
+- Open the root directory of the project
+- Run 'rspec' to run the tests
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Luis Octavio Ramirez Cruz**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [LOctavio](https://github.com/LOctavio)
+- Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
+- LinkedIn: [Luis Octavio Ramirez Cruz](https://www.linkedin.com/in/luis-octavio-ramirez-cruz/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/LOctavio/catalog-of-my-things/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
