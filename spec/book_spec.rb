@@ -6,7 +6,6 @@ describe Book do
       id = 1
       publish_date = '2000-10-10'
       publish_date2 = '2015-10-10'
-      archived = false
       publisher = 'paanini'
       cover_state = 'bad'
       cover_state2 = 'good'
